@@ -6,9 +6,11 @@ This repository consist two main folder: scraper and model.
 
 ## Scraper 
 
-This folder contains python script that used to do web scraping to https://www.kompas.id/kategori/sastra/ as dataset for the model.
+This folder contains python script that used to do web scraping to https://www.kompas.id/kategori/sastra/ as dataset for the model. 
 
 You need to register to  https://www.kompas.id first before use this scraper to fill the email and password parameter.
+
+Please install all the requirements library at `requirements` folder : `pip install -r requirements.txt`
 
 ```
 python kompas_sastra_scraper.py --user_email xxxxx@email.com --password xxxxxxxxxx --depth 5
